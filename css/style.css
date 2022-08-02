@@ -12,3 +12,27 @@ img{
     margin-left: 0;
     margin-right: 50px;
 }
+
+section{
+    padding: 10px 0;
+   
+}
+
+#landing-page{
+    height: 100vh;
+}
+
+#landing-page .inner-width{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+
+
+#landing-page .content img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
