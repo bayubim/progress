@@ -12,7 +12,7 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <img src="image/logo1.png" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home-jumbotron">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -39,15 +39,46 @@
   </nav>
 
   <!--Main-->
-  <section id="landing-page">
-    <div class="inner-width">
-      <div class="content">
-        <img src="image/jumbotron1.jpg" alt="">
-
+  <section id="home-jumbotron" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#home-jumbotron" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#home-jumbotron" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#home-jumbotron" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="image/jumbotron1.jpg" class="d-block vw-100 vh-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Kegiatan offline perdana progress</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus omnis voluptatum exercitationem, natus corrupti iste necessitatibus unde accusamus aperiam veritatis.</p>
+        </div>  
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="image/jumbotron1.jpg" class="d-block vw-100 vh-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem commodi consequuntur harum quam consectetur recusandae quibusdam laudantium.</p>
+        </div>  
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="image/jumbotron1.jpg" class="d-block vw-100 vh-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptas optio animi alias repudiandae minus veniam labore magnam necessitatibus fuga?</p>
+        </div>  
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home-jumbotron" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home-jumbotron" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </section>
 
+  
   <section id="about"></section>
 
   </section>
