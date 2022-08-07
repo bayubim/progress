@@ -3,7 +3,13 @@
     padding: 0px;
 }
 nav {
+    transition: 0.3s;
+    padding-top: 20px !important;
+}
+.scrolling{
     padding: 0px !important;
+    background-color: black;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 .nav-item{
     margin-right: 50px;
