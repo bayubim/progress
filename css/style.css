@@ -1,22 +1,14 @@
-img{
+.navbar-brand img{
     height: 50px;
-    width: 50px;
+    padding: 0px;
 }
-
-.jumbotron{
-    padding: 5rem 1rem;
-    background-color: lightblue;
+nav {
+    padding: 0px !important;
 }
-
 .nav-item{
-    margin-left: 0;
     margin-right: 50px;
 }
 
-section{ 
-    padding: 10px 0;
-   
-}
 
 #about .inner-width{
     padding: 0 80px;
