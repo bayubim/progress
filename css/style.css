@@ -15,9 +15,28 @@ nav {
     margin-right: 50px;
 }
 
+section{
+    margin-bottom: 15px;
+}
 
-#about .inner-width{
+.inner-width{
     padding: 0 80px;
     display: flex;
 }
 
+#about {
+    height: 60vh;
+}
+
+
+
+
+footer{
+    background-color: black;
+    height: 30vh;
+    padding-top: 15px;
+}
+
+footer h1{
+    color: aliceblue;
+}
