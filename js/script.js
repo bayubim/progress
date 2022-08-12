@@ -1,7 +1,7 @@
 var nav = document.querySelector("nav");
-window.addEventListener("scroll", function(){
-  nav.classList.toggle("scrolling",window.scrollY > 0);
-})
+window.addEventListener("scroll", function () {
+  nav.classList.toggle("scrolling", window.scrollY > 0);
+});
 
 // var nav = document.querySelector('nav');
 
