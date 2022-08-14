@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
-body {
+html {
   scroll-behavior: smooth;
+}
+body {
   font-family: "Playfair Display", serif;
 }
 nav img {
@@ -53,7 +55,4 @@ footer {
   background-color: black;
   height: 30vh;
   padding-top: 15px;
-}
-=======>>>>>>>parent of 10c6ddd (classes) footer h1 {
-  color: aliceblue;
 }
