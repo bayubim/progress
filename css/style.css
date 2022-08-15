@@ -43,12 +43,16 @@ section {
 }
 
 .inner-width {
-  padding: 0 80px;
+  padding: 20px 80px;
   display: flex;
 }
 
 #about {
-  height: 60vh;
+  height: 50vh;
+}
+
+#about .container{
+  margin-left: 50px;
 }
 
 footer {
