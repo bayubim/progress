@@ -3,13 +3,17 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Playfair Display", serif;
 }
+
+/* navigasi */
 nav img {
   width: 30px;
   margin-bottom: 5px;
 }
+
 nav {
   transition: 0.3s;
   padding-top: 20px !important;
@@ -24,11 +28,20 @@ ul {
   background-color: black;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
-.nav-item {
-  margin-right: 50px;
-}
 
-.img-carousel:after {
+/* jumbotron */
+.jumbo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../image/jumbotron.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.jumbo::after {
   content: "";
   position: absolute;
   left: 0;
@@ -36,31 +49,35 @@ ul {
   width: 100%;
   height: 100%;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.4);
-}
-section {
-  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.527);
 }
 
-.inner-width {
-  padding: 20px 80px;
-  display: flex;
+.jumbo h1 {
+  z-index: 5;
 }
-
 #about {
-  height: 50vh;
+  background-color: rgb(9, 9, 192);
 }
 
-#about .container{
-  margin-left: 50px;
+.pengurus img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
-.col-4{
-  padding-bottom: 9px;
+@keyframes scroll {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -375%;
+  }
 }
 
+.auto-slide {
+  animation: scroll 40s linear infinite;
+}
 footer {
   background-color: black;
-  height: 30vh;
   padding-top: 15px;
 }
