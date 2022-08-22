@@ -15,7 +15,7 @@ nav img {
 }
 
 nav {
-  transition: 0.3s;
+  transition: 0.4s;
   padding-top: 20px !important;
 }
 
@@ -24,24 +24,19 @@ ul {
 }
 
 .scrolling {
-  padding-top: 5px !important;
-  background-color: black;
+  padding-top: 2px !important;
+  padding-bottom: 2px;
+  background-color: rgb(10, 10, 10);
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  border-bottom: solid 1px rgb(34, 34, 34);
 }
 
 /* jumbotron */
-.jumbo {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../image/jumbotron.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+header {
+  z-index: -1;
+  height: 600px;
 }
-.jumbo::after {
+header::after {
   content: "";
   position: absolute;
   left: 0;
@@ -52,11 +47,12 @@ ul {
   background: rgba(0, 0, 0, 0.527);
 }
 
-.jumbo h1 {
-  z-index: 5;
+.teks {
+  z-index: 1;
 }
+
 #about {
-  background-color: #0C53A6;
+  background-color: #000000;
 }
 
 .pengurus img {
@@ -90,24 +86,24 @@ footer img {
   margin-bottom: 5px;
 }
 
-footer a{
+footer a {
   padding-top: 10px;
   color: rgb(59, 54, 54);
   text-decoration: none;
   transition: 0.2s linear;
 }
 
-footer a:hover{
+footer a:hover {
   color: aliceblue;
 }
 
-.sm a{
+.sm a {
   color: aliceblue;
   text-decoration: none;
   margin-right: 5px;
   transition: 0.2s linear;
 }
 
-.sm a:hover{
-  color: #0C53A6;
+.sm a:hover {
+  color: #0c53a6;
 }
