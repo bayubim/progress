@@ -20,7 +20,7 @@ nav {
 }
 
 ul {
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 .scrolling {
@@ -60,6 +60,7 @@ header::after {
   height: 200px;
   margin-bottom: 20px;
 }
+
 
 @keyframes scroll {
   0% {
