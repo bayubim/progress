@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/favicon.ico">
   <title>Progress</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand fs-3" href="#">
+      <a class="navbar-brand fs-3 fw-bold" href="#">
         <img src="image/logoProgress.png" alt="" class="d-inline-block">
         Progress
       </a>
@@ -24,41 +24,43 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav gap-4">
+        <ul class="navbar-nav  ms-auto gap-4">
           <li class="nav-item">
-            <a class="nav-link active" href="#jumbotron">Home</a>
+            <a class="nav-link" href="#jumbotron">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Classes</a>
+            <a class="nav-link" href="#class">Class</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#Event">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pengurus.html">Administrator</a>
           </li>
         </ul>
       </div>
-    </div>
   </nav>
 
   <!--Main-->
   <header id='jumbotron' class="position-relative w-100">
     <img src="image/jumbotron.jpg" alt="" class="bg position-absolute w-100 h-100">
-    <h1 class="teks text-white position-relative text-center top-50">Hello World</h1>
+    <p class="teks text-white position-relative text-center pb-2">Progress</p>
   </header>
 
   <!--About-->
   <section id="about">
-    <div class="container text-white py-4">
-      <h1 class=" container w-50 text-center border-bottom">About Progress</h1>
-      <p>
+    <div class="container">
+      <h1 class="container reveal w-50 text-center border-bottom">About Progress</h1>
+      <p class="reveal">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
         temporibus consequuntur natus animi alias, suscipit harum
         veritatis distinctio esse, optio a assumenda! Dolorem, error est Lorem ipsum dolor, sit amet consectetur
         adipisicing elit. Ut, sed.
       </p>
-      <div class="row text-center">
+      <div class="row reveal text-center">
         <div class="col py-3">
           <h1>Visi</h1>
           <p>Lorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
@@ -68,198 +70,99 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, totam?</p>
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row reveal text-center">
         <div class="col">
-          <h3>200+</h3>
+          <h1>200</h1>
           <p>Active Member</p>
         </div>
         <div class="col">
-          <h3>24</h3>
+          <h1>24</h1>
           <p>Administrator</p>
         </div>
         <div class="col">
-          <h3>4</h3>
+          <h1>4</h1>
           <p>Class</p>
         </div>
         <div class="col">
-          <h3>30+</h3>
+          <h1>30+</h1>
           <p>Project</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="pengurus bg-dark text-white position-relative pt-4 pb-5">
-    <h2 class="text-center mb-5">Administrator</h2>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row text-center mb-5">
-            <div class="col py-5">
-              <h3>Core Manager</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.</p>
-            </div>
-            <div class="col">
-              <img class="focus" src="image/Ketua.jpg" alt="">
-            </div>
-          </div>
-          <div class="container auto-slide position-relative">
-            <div class="container">
-              <div class="slideimg d-flex gap-5">
-                <img src="image/Wakil.jpeg" alt="">
-                <img src="image/Sekretaris1.jpeg" alt="">
-                <img src="image/Sekretaris2.jpeg" alt="">
-                <img src="image/Bendahara1.jpeg" alt="">
-                <img src="image/Bendahara2.jpeg" alt="">
-                <img src="image/KoordinatorJimbaran.jpeg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row text-center mb-5">
-            <div class="col py-5 " >
-              <h3>Divisi 1</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.</p>
-            </div>
-            <div class="col">
-              <img class="focusPengurus" src="image/KoorDivisi1.jpeg" alt="">
-            </div>
-          </div>
-          <div class="container auto-slide position-relative">
-            <div class="container">
-              <div class="slideimg d-flex gap-5">
-                <img src="image/Div1-1.jpeg" alt="">
-                <img src="image/Div1-2.jpeg" alt="">
-                <img src="image/Div1-3.jpeg" alt="">
-                <img src="image/Div1-4.jpeg" alt="">
-                <img src="image/Div1-5.jpeg" alt="">
-                <img src="image/Div1-6.jpeg" alt="">
-                <img src="image/Div1-7.jpeg" alt="">
-                <img src="image/Div1-8.jpeg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row text-center mb-5">
-            <div class="col py-5 ">
-              <h3>Divisi 2</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.</p>
-            </div>
-            <div class="col">
-              <img class="focusPengurus" src="image/KoorDivisi2.jpeg" alt="">
-            </div>
-          </div>
-          <div class="container position-relative">
-            <div class="container">
-              <div class="d-flex justify-content-center gap-5">
-                <img src="image/Div2-1.jpeg" alt="">
-                <img src="image/Div2-2.jpeg" alt="">
-                <img src="image/Div2-3.jpeg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row text-center mb-5">
-            <div class="col py-5 ">
-              <h3>Divisi 3</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem.</p>
-            </div>
-            <div class="col">
-              <img class="focusPengurus" src="image/KoorDivisi3.jpeg" alt="">
-            </div>
-          </div>
-          <div class="container position-relative">
-            <div class="container">
-              <div class="d-flex justify-content-center gap-5">
-                <img src="image/Div3-1.jpeg" alt="">
-                <img src="image/Div3-2.jpeg" alt="">
-                <img src="image/Div3-3.jpeg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
+  <section id="class" class="container-fluid reveal text-center">
+    <h1 class="container reveal w-50 text-center pt-5 border-bottom">Class</h1>
+    <p class="reveal">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+      temporibus consequuntur natus animi alias, suscipit harum
+      veritatis distinctio esse
+    </p>
+    <div class="row reveal align-items-center">
+      <div class="col">
+        <img src="image/developer_class.png" alt="">
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="icon" style="margin-left:-80px;" aria-hidden="true"> <img class="w-25 h-25"
-            src="image/previous.png" alt=""></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div class="col">
+        <h1>Developer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, debitis!</p>
+      </div>
+      <div class="row reveal align-items-center">
+        <div class="col">
+          <h1>Web Developer</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, debitis!</p>
+        </div>
+        <div class="col">
+          <img src="image/webDeveloper.png" alt="">
+        </div>
+        <div class="row reveal align-items-center">
+          <div class="col">
+            <img src="image/programming.png" alt="">
+          </div>
+          <div class="col">
+            <h1>Programming</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, debitis!</p>
+          </div>
+          <div class="row reveal align-items-center">
+            <div class="col">
+              <h1>Mobile Programming</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, debitis!</p>
+            </div>
+            <div class="col">
+              <img src="image/mobile.png" alt="">
+            </div>
   </section>
 
-  <section class="py-4 px-0 container">
-    <h1 class="text-center">Classes</h1>
-    <div class="row">
-      <div class="col-3">
-        <div class="card">
-          <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Web Developer</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Developer</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fs-6">Mobile Programming</h5>
-            <p class="card-text">
-              Some quick example text to build on the card Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Deleniti.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Programming</h5>
-            <p class="card-text">
-              Some quick example text to build on the card Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Deleniti.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="event text-white text-center" style="background-color: #002F63; padding-bottom: 500px;">
+  <section id="Event" class="text-white text-center py-4" style="background-color: #002F63;">
     <h2 class="py-4">Event Progress</h2>
+    <div class="container d-flex gap-5">
+      <div class="card" style="width: 18rem;">
+        <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Infinity</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bansos</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="image/jumbotron.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stikomfest</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="contact"></section>

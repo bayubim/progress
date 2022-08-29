@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Playfair Display", serif;
 }
 
 /* navigasi */
@@ -23,12 +17,18 @@ ul {
   margin-left: 50px;
 }
 
+h1 {
+  background: linear-gradient(to right, #370277 0%, #30cfd0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .scrolling {
+  color: black !important;
   padding-top: 2px !important;
   padding-bottom: 2px;
-  background-color: rgb(10, 10, 10);
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-  border-bottom: solid 1px rgb(34, 34, 34);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 10px rgba(153, 153, 153, 0.555);
 }
 
 /* jumbotron */
@@ -48,33 +48,50 @@ header::after {
 }
 
 .teks {
+  top: 30%;
+  font-size: 4em;
   z-index: 1;
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 #about {
-  background-color: #000000;
+  background-color: white;
 }
 
-.pengurus img {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 20px;
+#about .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-
-@keyframes scroll {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -375%;
-  }
+#class {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 204, 255, 0.3),
+      rgba(0, 204, 255, 0.3)
+    ),
+    url(../image/bgClass.jpg);
+  background-color: ;
+  background-position: center;
+  background-size: cover;
 }
 
-.auto-slide {
-  animation: scroll 40s linear infinite;
+.col img {
+  width: 500px;
 }
-
+.card-body {
+  color: black;
+}
 footer {
   background-color: black;
   padding-top: 15px;
