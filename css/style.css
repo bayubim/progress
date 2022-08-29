@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Oswald", sans-serif;
+}
 /* navigasi */
 nav img {
   width: 30px;
@@ -15,6 +20,14 @@ nav {
 
 ul {
   margin-left: 50px;
+}
+
+li {
+  padding-bottom: 3px;
+}
+.navbar-nav .navbar-item a:hover {
+  border-bottom: 2px solid black;
+  color: #370277 !important;
 }
 
 h1 {
