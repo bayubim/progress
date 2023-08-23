@@ -1,7 +1,7 @@
 let bg = document.getElementsByClassName("bg")[0];
 window.addEventListener("scroll", function () {
   var value = window.scrollY;
-  bg.style.top = value * 0.4 + "px";
+  bg.style.top = value * 1 + "px";
 });
 
 let nav = document.querySelector("nav");
